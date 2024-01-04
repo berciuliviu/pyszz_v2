@@ -2,14 +2,14 @@
 szz_name: r
 
 ### obtain the diff only for the specified file extensions
-# file_ext_to_parse:
-#  - c
-#  - cpp
-#  - cs
-#  - h
-#  - java
-#  - js
-#  - py
+file_ext_to_parse:
+  #  - c
+  #  - cpp
+  #  - cs
+  #  - h
+  #  - java
+  #  - js
+  - py
 
 ### filter commits using issue_date field
 issue_date_filter: false
